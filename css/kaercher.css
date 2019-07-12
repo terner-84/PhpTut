@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+body {
+    width: 1050px;
+    margin: 50px auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+fieldset {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: blue;
+}
+
+.cont {
+    padding: 0 16px;
+}
+
+button {
+    font-size: 1.3em;
+    color: green;
+    background-color: antiquewhite;
+}
+
+button:hover {
+    color: red;
+    background-color: yellow;
+}
+
+#fna input {
+    font-size: 1.1em;
+    color: blueviolet;
+    margin-bottom: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    min-width: 300px;
+}
+
+#fna label {
+    display: inline-block;
+}
+
+#fna {
+    max-width: 316px;
+}
+
+#db_res {
+    color: green;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+}

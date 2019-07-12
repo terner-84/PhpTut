@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP tutorial via Zoner book</title>
+    <link rel="stylesheet" href="css/kaercher.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="cont" id="sec_na">
+        <h1>Kärcher příslušenství</h1>
+        <input type="button" value="Aktivuj" id="activate_form">
+        <form action="primus.php" method="post">
+            <fieldset disabled="disabled" id="fs1">
+                <legend>Kärcher</legend>
+                <label for="title">Název</label>
+                <input type="text" name="title" id="" placeholder="název výrobku"><br>
+                <label for="price">Cena</label>
+                <input type="text" name="price" id="price" placeholder="0.00"><br>
+                <input type="submit" value="Odešli">
+            </fieldset>
+        </form>
+
+        <h1>NA</h1>
+        <form id="na">
+            <fieldset id="fna">
+                <legend>Narex accessories</legend>
+            </fieldset>
+            <div id="db_res">
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
